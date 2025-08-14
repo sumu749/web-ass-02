@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web-Ass-02</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ["Inter", "sans-serif"], // Primary font (default)
+            serif: ["Noto Serif", "serif"], // Secondary font
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="">
+      <nav
+        class="max-w-[1140px] h-[70px] mt-[30px] mx-auto flex justify-between items-center"
+      >
+        <div>
+          <img
+            src="assets/logo.png"
+            alt="Logo"
+            class="h-[82px] w-[135px] object-contain"
+          />
+        </div>
+        <div
+          class="w-[415px] h-[60px] py-[22px] flex flex-row items-center font-"
+        >
+          <ul class="flex justify-between w-full gap-12">
+            <li>
+              <a href="#" class="font-bold text-black">Home</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-400">Shop</a>
+            </li>
+            <li>
+              <a href="#" class="text-gray-400">About Me</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="flex items-center w-[79px] h-[24px] text-black font-normal"
+                ><i class="fa-solid fa-cart-shopping mr-2"></i>Cart
+                <span>($56)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
