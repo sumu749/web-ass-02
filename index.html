@@ -34,39 +34,32 @@
   </head>
   <body class="">
     <header class="w-full">
-      <!-- nav  -->
+      <!-- Navbar  -->
       <nav
-        class="max-w-[1440px] h-[70px] mt-[30px] mx-auto flex justify-between items-center"
+        class="max-w-[1440px] h-[70px] mt-[30px] mx-auto flex justify-between items-center px-4"
       >
+        <!-- LOGO  -->
         <div>
           <img
             src="assets/logo.png"
             alt="Logo"
-            class="h-[82px] w-[135px] object-contain"
+            class="h-[82px] w-auto object-contain"
           />
         </div>
-        <div
-          class="w-[415px] h-[60px] py-[22px] flex flex-row items-center text-base"
-        >
-          <ul class="flex justify-between w-full gap-8">
-            <li>
-              <a href="#" class="font-bold text-black">Home</a>
-            </li>
-            <li>
-              <a href="#" class="text-gray-400">Shop</a>
-            </li>
-            <li>
-              <a href="#" class="text-gray-400">About Me</a>
-            </li>
-            <li>
-              <a
-                href="#"
-                class="flex items-center w-[79px] h-[24px] text-black font-normal"
-                ><i class="fa-solid fa-cart-shopping mr-1"></i>Cart
-                <span>($56)</span></a
-              >
-            </li>
-          </ul>
+
+        <!-- Nav Links  -->
+        <div class="hidden sm:flex items-center text-base gap-8">
+          <a href="#" class="font-bold text-black">Home</a>
+          <a href="#" class="text-gray-400">Shop</a>
+          <a href="#" class="text-gray-400">About Me</a>
+        </div>
+
+        <!-- Cart Icon + Text (always visible) -->
+        <div>
+          <a href="#" class="flex items-center text-black font-normal">
+            <i class="fa-solid fa-cart-shopping mr-1"></i>Cart
+            <span>($56)</span>
+          </a>
         </div>
       </nav>
     </header>
@@ -93,6 +86,202 @@
           />
         </div>
       </div>
+
+      <!-- plant section  -->
+
+      <section class="max-w-[1140px] mx-auto mt-[120px] px-4">
+        <div class="text-center mb-[50px]">
+          <h2 class="text-3xl font-serif font-bold">
+            <span class="text-[#E95A08]">Our</span> Plants
+          </h2>
+          <p class="text-gray-500 max-w-[700px] mx-auto mt-4">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <!-- 8 cards -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"
+        >
+          <!-- Card 1  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 2  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 3  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 4  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 5  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 6  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 7  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+
+          <!-- Card 8  -->
+          <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
+            <div
+              class="w-full h-[322px] flex items-center justify-center bg-gray-50"
+            >
+              <img
+                src="assets/sample-flower-image.png"
+                alt="sample flower"
+                class="max-h-full max-w-full object-contain"
+              />
+            </div>
+            <div class="p-6 text-center">
+              <h3 class="text-xl font-semibold mb-2">Lily Blossom</h3>
+              <h3 class="text-lg font-bold mb-4">20 USD</h3>
+              <button
+                class="add-to-cart-btn bg-[#E95A08] text-white px-6 py-3 rounded-lg font-semibold"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>

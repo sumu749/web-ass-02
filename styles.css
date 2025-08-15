@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+/* styles  */
+.plant-card {
+  transition: all 0.3s ease;
+}
+.plant-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+.add-to-cart-btn {
+  transition: all 0.3s ease;
+}
+.add-to-cart-btn:hover {
+  background-color: #d97706;
+  transform: translateY(-2px);
+}
