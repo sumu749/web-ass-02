@@ -32,10 +32,11 @@
       };
     </script>
   </head>
-  <body>
-    <header class="">
+  <body class="">
+    <header class="w-full">
+      <!-- nav  -->
       <nav
-        class="max-w-[1140px] h-[70px] mt-[30px] mx-auto flex justify-between items-center"
+        class="max-w-[1440px] h-[70px] mt-[30px] mx-auto flex justify-between items-center"
       >
         <div>
           <img
@@ -45,9 +46,9 @@
           />
         </div>
         <div
-          class="w-[415px] h-[60px] py-[22px] flex flex-row items-center font-"
+          class="w-[415px] h-[60px] py-[22px] flex flex-row items-center text-base"
         >
-          <ul class="flex justify-between w-full gap-12">
+          <ul class="flex justify-between w-full gap-8">
             <li>
               <a href="#" class="font-bold text-black">Home</a>
             </li>
@@ -61,7 +62,7 @@
               <a
                 href="#"
                 class="flex items-center w-[79px] h-[24px] text-black font-normal"
-                ><i class="fa-solid fa-cart-shopping mr-2"></i>Cart
+                ><i class="fa-solid fa-cart-shopping mr-1"></i>Cart
                 <span>($56)</span></a
               >
             </li>
@@ -69,7 +70,30 @@
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <!-- banner  -->
+      <div
+        class="max-w-[1140px] h-[460px] mx-auto mt-[120px] flex flex-row justify-between items-center"
+      >
+        <div class="w-[570px] h-[300px] flex flex-col gap-[12px]">
+          <h1 class="text-[4rem] font-serif font-bold">
+            ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
+          </h1>
+          <h3 class="text-[1.4rem]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </h3>
+        </div>
+        <div>
+          <img
+            src="assets/hero-flower.png"
+            alt="Hero flower "
+            class="w-[570px] h-[350px]"
+          />
+        </div>
+      </div>
+    </main>
     <footer></footer>
   </body>
 </html>
