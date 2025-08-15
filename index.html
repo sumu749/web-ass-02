@@ -32,7 +32,7 @@
       };
     </script>
   </head>
-  <body class="bg-white font-sans">
+  <body class="bg-bgmain min-h-screen font-sans">
     <header class="w-full">
       <!-- Navbar  -->
       <nav
@@ -53,49 +53,48 @@
           <div class="hidden sm:flex items-center text-base gap-8">
             <a href="#" class="font-bold text-black">Home</a>
             <a href="#" class="text-gray-400">Shop</a>
-            <a href="#" class="text-gray-400">About Me</a>
+            <a href="#" class="text-gray-400">About us</a>
           </div>
           <!-- Cart Icon + Text (always visible) -->
           <a href="#" class="text-black font-normal ml-4 flex items-center">
             <i class="fa-solid fa-cart-shopping mr-1"></i>
-            <span class="hidden xs:inline">Cart</span>
-            <span class="ml-1">($56)</span>
+            <span class="ml-1">Cart ($56)</span>
           </a>
         </section>
       </nav>
     </header>
     <main>
       <!-- banner  -->
-      <div
-        class="max-w-[1140px] mx-auto mt-[40px] flex flex-col-reverse md:flex-row justify-between items-center px-4"
+      <section
+        class="max-w-[1140px] h-[461px] gap-10 mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-4 py-10 md:py-24"
       >
-        <div
-          class="w-full md:w-[570px] h-auto flex flex-col gap-[12px] mt-6 md:mt-0 text-left"
-        >
+        <!-- Text -->
+        <div class="flex-1 flex flex-col justify-center md:w-1/2 mt-8 md:mt-0 text-left">
           <h1
-            class="text-[2.1rem] xs:text-[2.5rem] md:text-[4rem] font-serif font-bold leading-tight"
+            class="font-serif font-bold text-2xl xs:text-3xl md:text-4xl lg:text-5xl leading-tight mb-5"
           >
-            ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span>
+            <span class="text-black">ALWAYS</span>
+            <span class="text-[#E95A08]"> FRESH</span><br />
+            <span class="text-[#E95A08]">FLOWERS</span>
           </h1>
-          <h3 class="text-[1.1rem] xs:text-[1.25rem] md:text-[1.4rem]">
+          <p class=text-[#4F5D75] text-base md:text-lg max-w-[530px]">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
-          </h3>
+          </p>
         </div>
-        <div class="w-full md:w-auto flex justify-center">
+        <!-- Image -->
+        <div class="h-full flex-1  md:w-1/2 flex justify-end items-end md:justify-end">
           <img
             src="assets/hero-flower.png"
-            alt="Hero flower "
-            class="w-full max-w-[400px] md:max-w-[570px] h-auto md:h-[350px] object-contain"
+            alt="Hero flower"
+            class="h-[350px] max-w-[350px] md:max-w-[460px] lg:max-w-[510px]  object-contain"
           />
         </div>
-      </div>
+      </section>
 
       <!-- plant section  -->
-      <section
-        class="max-w-[1140px] mx-auto mt-[60px] xs:mt-[90px] md:mt-[120px] px-4"
-      >
+      <section class="max-w-[1140px] mx-auto xs:mt-[90px] md:mt-[24px] px-4">
         <div class="text-center mb-[30px] md:mb-[50px]">
           <h2 class="text-2xl xs:text-3xl font-serif font-bold">
             <span class="text-[#E95A08]">Our</span> Plants
