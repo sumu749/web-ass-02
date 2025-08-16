@@ -32,7 +32,7 @@
       };
     </script>
   </head>
-  <body class="bg-bgmain min-h-screen font-sans">
+  <body class="bg-[#F5F8FF] min-h-screen font-sans">
     <header class="w-full">
       <!-- Navbar  -->
       <nav
@@ -66,37 +66,41 @@
     <main>
       <!-- banner  -->
       <section
-        class="max-w-[1140px] h-[461px] gap-10 mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-4 py-10 md:py-24"
+        class="max-w-[1140px] h-[461px] gap-10 mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-4 py-10 md:py-24 mt-[28px] md:mt-0"
       >
         <!-- Text -->
-        <div class="flex-1 flex flex-col justify-center md:w-1/2 mt-8 md:mt-0 text-left">
+        <div
+          class="flex-1 flex flex-col justify-center md:w-1/2 mt-8 md:mt-0 text-left"
+        >
           <h1
-            class="font-serif font-bold text-2xl xs:text-3xl md:text-4xl lg:text-5xl leading-tight mb-5"
+            class="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight mb-5"
           >
             <span class="text-black">ALWAYS</span>
             <span class="text-[#E95A08]"> FRESH</span><br />
             <span class="text-[#E95A08]">FLOWERS</span>
           </h1>
-          <p class=text-[#4F5D75] text-base md:text-lg max-w-[530px]">
+          <p class="text-[#4F5D75] text-base md:text-lg max-w-[530px]">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
           </p>
         </div>
         <!-- Image -->
-        <div class="h-full flex-1  md:w-1/2 flex justify-end items-end md:justify-end">
+        <div
+          class="h-full flex-1 md:w-1/2 flex justify-end items-end md:justify-end"
+        >
           <img
             src="assets/hero-flower.png"
             alt="Hero flower"
-            class="h-[350px] max-w-[350px] md:max-w-[460px] lg:max-w-[510px]  object-contain"
+            class="h-[350px] sm:w-full md:max-w-[460px] lg:max-w-[510px] object-contain mt-[28px] md:mt-0"
           />
         </div>
       </section>
 
       <!-- plant section  -->
-      <section class="max-w-[1140px] mx-auto xs:mt-[90px] md:mt-[24px] px-4">
+      <section class="max-w-[1140px] mx-auto sm:mt-[90px] md:mt-[24px] px-4">
         <div class="text-center mb-[30px] md:mb-[50px]">
-          <h2 class="text-2xl xs:text-3xl font-serif font-bold">
+          <h2 class="text-2xl md:text-5xl font-serif font-bold">
             <span class="text-[#E95A08]">Our</span> Plants
           </h2>
           <p class="text-gray-500 max-w-[700px] mx-auto mt-4 text-base">
@@ -108,12 +112,12 @@
 
         <!-- 8 cards -->
         <div
-          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 xs:gap-6 md:gap-8"
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8"
         >
           <!-- Card 1  -->
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -121,19 +125,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -143,7 +147,7 @@
           <!-- ...cards 2-8 below, unchanged but with above responsive classes... -->
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -151,19 +155,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -171,7 +175,7 @@
           </div>
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -179,19 +183,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -199,7 +203,7 @@
           </div>
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -207,19 +211,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -227,7 +231,7 @@
           </div>
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -235,19 +239,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -255,7 +259,7 @@
           </div>
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -263,19 +267,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -283,7 +287,7 @@
           </div>
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -291,19 +295,19 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
@@ -311,7 +315,7 @@
           </div>
           <div class="plant-card bg-white shadow-md rounded-lg overflow-hidden">
             <div
-              class="w-full h-[160px] xs:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
+              class="w-full h-[160px] sm:h-[200px] md:h-[322px] flex items-center justify-center bg-gray-50"
             >
               <img
                 src="assets/sample-flower-image.png"
@@ -319,23 +323,82 @@
                 class="max-h-full max-w-full object-contain"
               />
             </div>
-            <div class="p-3 xs:p-4 md:p-6 text-center">
+            <div class="p-3 sm:p-4 md:p-6 text-center">
               <h3
-                class="text-base xs:text-lg md:text-xl font-semibold mb-1 md:mb-2"
+                class="text-base sm:text-lg md:text-xl font-semibold mb-1 md:mb-2"
               >
                 Lily Blossom
               </h3>
               <h3
-                class="text-sm xs:text-base md:text-lg font-bold mb-2 md:mb-4"
+                class="text-sm sm:text-base md:text-lg font-bold mb-2 md:mb-4"
               >
                 20 USD
               </h3>
               <button
-                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 xs:px-6 xs:py-3 rounded-lg font-semibold"
+                class="add-to-cart-btn bg-[#E95A08] text-white px-3 py-2 sm:px-6 sm:py-3 rounded-lg font-semibold"
               >
                 ADD TO CART
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Plant Lover Section  -->
+      <section
+        class="w-full min-h-screen flex items-center justify-center bg-[#F5F8FF] py-8"
+      >
+        <div
+          class="relative flex flex-col md:flex-row items-start md:items-center md:justify-center w-full max-w-[1048px] mx-auto"
+        >
+          <!-- Image Block -->
+          <div class="relative w-full md:w-[510px] h-[280px] md:h-[651px]">
+            <img
+              src="assets/flower-store.png"
+              alt="Flower Store"
+              class="w-full h-full object-cover"
+            />
+            <div
+              class="absolute inset-0 pointer-events-none bg-gradient-to-t from-orange-500/40 to-transparent"
+            ></div>
+            <img
+              src="assets/trusted-badge.png"
+              alt="Trusted Seller"
+              class="hidden md:block absolute md:left-[420px] md:top-[-60px] md:w-[180px] md:h-[180px] md:-translate-x-0 z-10"
+            />
+          </div>
+          <!-- Content Block -->
+          <div
+            class="flex flex-col items-start justify-center px-4 py-8 md:pl-[56px] md:pt-[70px] w-full md:w-[538px] md:h-[651px] bg-transparent"
+          >
+            <h2
+              class="font-serif font-bold text-[2rem] md:text-[50px] leading-tight text-black mb-6"
+            >
+              Flower & Plants<br />Lover
+            </h2>
+            <ul class="list-disc ml-6 flex flex-col gap-6 md:gap-[24px]">
+              <li
+                class="text-base md:text-[22px] font-normal leading-relaxed text-black/50 font-sans"
+              >
+                Indulge your senses with the beauty and fragrance of our fresh
+                flower shop. From classic roses to exotic blooms, we offer a
+                wide variety of fresh.
+              </li>
+              <li
+                class="text-base md:text-[22px] font-normal leading-relaxed text-black/50 font-sans"
+              >
+                Indulge your senses with the beauty and fragrance of our fresh
+                flower shop. From classic roses to exotic blooms, we offer a
+                wide variety of fresh.
+              </li>
+              <li
+                class="text-base md:text-[22px] font-normal leading-relaxed text-black/50 font-sans"
+              >
+                Indulge your senses with the beauty and fragrance of our fresh
+                flower shop. From classic roses to exotic blooms, we offer a
+                wide variety of fresh.
+              </li>
+            </ul>
           </div>
         </div>
       </section>
