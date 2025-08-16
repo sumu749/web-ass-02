@@ -36,7 +36,7 @@
     <header class="w-full">
       <!-- Navbar  -->
       <nav
-        class="max-w-[1440px] h-[70px] mt-[30px] mb-[120px] mx-auto flex justify-between items-center px-4"
+        class="max-w-[1140px] h-[70px] mt-[30px] mb-[120px] mx-auto flex justify-between items-center px-4"
       >
         <!-- LOGO  -->
         <div>
@@ -406,11 +406,11 @@
       <!-- Latest deals section  -->
 
       <section
-        class="w-full flex flex-col items-center bg-[#F5F8FF] pt-8 pb-16"
+        class="w-full flex flex-col items-center -mt-10 bg-[#F5F8FF] pt-8 pb-16"
       >
         <!-- Heading and subheading -->
         <div
-          class="w-full max-w-[1440px] flex flex-col items-center gap-4 mb-8 px-2"
+          class="w-full max-w-[1440px] flex flex-col items-center gap-4 mb-16 px-2"
         >
           <h2
             class="w-full text-center font-serif font-semibold text-[2rem] sm:text-[2.5rem] md:text-[50px] leading-[1] tracking-normal"
@@ -508,6 +508,47 @@
                 Shop Now
               </button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Join Section  -->
+      <section
+        class="w-full flex justify-center items-center bg-[#F5F8FF] py-8"
+      >
+        <div
+          class="relative w-full max-w-[1440px] h-[533px] flex items-center justify-center overflow-hidden"
+        >
+          <!-- Background image -->
+          <img
+            src="assets/news-letter-bg.png"
+            alt="Newsletter Background"
+            class="absolute inset-0 w-full h-full object-cover z-0"
+          />
+          <!-- Blue overlay -->
+          <div class="absolute inset-0 bg-[#07334F]/40 z-10"></div>
+          <!-- Centered content -->
+          <div class="relative z-20 w-full flex flex-col items-center">
+            <h2
+              class="font-serif font-bold text-center text-white text-[2.8rem] md:text-[48px] mb-8 drop-shadow-md"
+              style="font-family: 'Noto Serif', serif"
+            >
+              Join the colorful Bunch
+            </h2>
+            <form class="w-full max-w-[700px] flex items-center justify-center">
+              <input
+                type="email"
+                placeholder="Write email"
+                class="flex-1 h-[48px] px-4 rounded-r-none outline-none border-none text-base md:text-lg bg-white text-black placeholder:text-gray-500"
+                required
+              />
+              <button
+                type="submit"
+                class="h-[48px] px-8 bg-orange-600 text-white font-semibold rounded-none transition-colors duration-200 hover:bg-orange-700"
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </section>
